@@ -1,7 +1,7 @@
 {
   "id": "vionheart-content",
   "title": "Vionheart Content",
-  "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json?token=GHSAT0AAAAAACUI25O5BSFJ2PIOW7SR6KTGZVST6RA",
+  "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-content/archive/refs/tags/Release.zip",
   "version": "6.3.1",
   "compatibility": {
@@ -27,7 +27,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-non-player-characters",
@@ -38,7 +39,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-monsters",
@@ -49,7 +51,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-items",
@@ -60,7 +63,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-spells",
@@ -71,7 +75,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-feats",
@@ -82,7 +87,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-ancestries",
@@ -93,7 +99,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-heritages",
@@ -104,7 +111,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-backgrounds",
@@ -115,7 +123,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-effects",
@@ -126,7 +135,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-actions",
@@ -137,7 +147,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-journal-entries",
@@ -148,7 +159,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-macros",
@@ -159,7 +171,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-features",
@@ -170,7 +183,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-iconics",
@@ -181,7 +195,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-scenes",
@@ -192,7 +207,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-ancestryheritage-templates",
@@ -203,7 +219,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-deities",
@@ -214,7 +231,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "relationships": {
@@ -227,221 +245,217 @@
     ]
   },
   "flags": {
-        "vionheart-content": {
-            "pf2e-homebrew": {
-                "skills": {
-                    "additional": {
-                        "romance": {
-							"label": "Romance",
-							"attribute": "cha"
-                        }
-                    }
-                },
-                "baseArmors": {},
-                "baseWeapons": {
-					"swordspear": "Swordspear",
-					"karakuri-blade": "Karakuri Blade",
-					"karakuri-blaster": "Karakuri Blaster",
-					"karakuri-cannon": "Karakuri Cannon",
-					"karakuri-saber": "Karakuri Saber",
-					"karakuri-bow": "Karakuri Bow"
-				},
-                "languages": {
-					"gartext": "Gartext",
-					"tricode": "Tricode",
-					"fiendish": "Fiendish",
-					"outworldic": "Outworldic",
-					"alofic": "Alofic",
-					"monsterspeech": "Monsterspeech",
-					"baruder": "Baruder",
-					"underune": "Underune",
-					"krixie": "Krixie",
-					"kodex": "Kodex"
-				},
-                "weaponGroups": {},
-                "creatureTraits": {
-					"heartner": "Heartner",
-					"triceranyl": "Triceranyl",
-					"darkling": "Darkling",
-					"khaxi": "Khaxi",
-					"draconid": "Draconid",
-					"kira": "Kira",
-					"kemono": "Kemono",
-					"alofian": "Alofian",
-					"garsek": "Garsek",
-					"nonyana": "Nonyana",
-					"broodle": "Broodle",
-					"brae": "Brae",
-					"felicat": "Felicat",
-					"kameleon": "Kameleon",
-					"kitsukin": "Kitsukin",
-					"kureira": "Kureira",
-					"lucaline": "Lucaline",
-					"meranth": "Meranth",
-					"ulfasar": "Ulfasar",
-					"bovidae": "Bovidae",
-					"cannent": "Cannent",
-					"fey-khaxi": "Fey Khaxi",
-					"shadow-khaxi": "Shadow Khaxi",
-					"regal-alofian": "Regal Alofian",
-					"harakin": "Harakin",
-					"lunafel": "Lunafel",
-					"follower": "Follower",
-					"wukon": "Wukon",
-					"karakuri": "Karakuri",
-					"dosh": "Dosh"
-				},
-                "featTraits": {
-					"heartner": "Heartner",
-					"triceranyl": "Triceranyl",
-					"darkling": "Darkling",
-					"draconid": "Draconid",
-					"kira": "Kira",
-					"kemono": "Kemono",
-					"alofian": "Alofian",
-					"regal-alofian": "Regal Alofian",
-					"garsek": "Garsek",
-					"nonyana": "Nonyana",
-					"broodle": "Broodle",
-					"brae": "Brae",
-					"felicat": "Felicat",
-					"kameleon": "Kameleon",
-					"kitsukin": "Kitsukin",
-					"kureira": "Kureira",
-					"lucaline": "Lucaline",
-					"meranth": "Meranth",
-					"ulfasar": "Ulfasar",
-					"bovidae": "Bovidae",
-					"cannent": "Cannent",
-					"khaxi": "Khaxi",
-					"fey-khaxi": "Fey Khaxi",
-					"shadow-khaxi": "Shadow Khaxi",
-					"harakin": "Harakin",
-					"lunafel": "Lunafel",
-					"wukon": "Wukon",
-					"dosh": "Dosh",
-					"follower": "Follower",
-					"karakuri": "Karakuri"
-				},
-                "spellTraits": {
-					"starpower": "Starpower",
-					"command-song": "Command Song",
-					"karakuri": "Karakuri",
-					"scarlet-wire": "Scarlet Wire",
-					"alofian": "Alofian",
-					"hero": "Hero",
-					"stratagem": "Stratagem",
-					"eye-technique": "Eye Technique"
-                },
-                "weaponTraits": {
-					"heartner": {
-						"label": "Heartner",
-						"description": "An item with this trait may confer a special bonus with its own rules detailed on the item."
-					},
-						"alofian": "Alofian",
-						"garsek": "Garsek",
-						"nonyana": "Nonyana",
-						"broodle": "Broodle",
-						"brae": "Brae",
-						"felicat": "Felicat",
-						"kameleon": "Kameleon",
-						"kitsukin": "Kitsukin",
-						"kureira": "Kureira",
-						"lucaline": "Lucaline",
-						"meranth": "Meranth",
-						"ulfasar": "Ulfasar",
-						"bovidae": "Bovidae",
-						"cannent": "Cannent",
-						"harakin": "Harakin",
-						"lunafel": "Lunafel",
-						"wukon": "Wukon",
-						"dosh": "Dosh",
-						
-						"strength": "Strength",
-						"agility": "Agility",
-						"intelligence": "Intelligence",
-						"universal": "Universal",
-						"health": "Health",
-						"attack-speed": "Attack Speed",
-						"attack-damage": "Attack Damage",
-						"lifesteal": "Lifesteal",
-						"spell-lifesteal": "Spell Lifesteal",
-						"speed": "Speed",
-						"physical-protection": "Physical Protection",
-						"magical-protection": "Magical Protection",
-						"magic-recovery": {
-							"label": "Magic Recovery",
-							"description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
-						},
-						
-					"triceranyl": "Triceranyl",
-					"darkling": "Darkling",
-					"kemono": "Kemono",
-					"draconid": "Draconid",
-					"kira": "Kira",
-					"khaxi": "Khaxi",
-					"karakuri": "Karakuri",
-					"key-item": {
-						"label": "Key Item",
-						"description": "This item has a significant purpose in the campaign."
-					},
-					"follower": "Follower"
-				},
-				"equipmentTraits": {
-					"heartner": {
-						"label": "Heartner",
-						"description": "An item with this trait may confer a special bonus with its own rules detailed on the item."
-					},
-						"alofian": "Alofian",
-						"garsek": "Garsek",
-						"nonyana": "Nonyana",
-						"broodle": "Broodle",
-						"brae": "Brae",
-						"felicat": "Felicat",
-						"kameleon": "Kameleon",
-						"kitsukin": "Kitsukin",
-						"kureira": "Kureira",
-						"lucaline": "Lucaline",
-						"meranth": "Meranth",
-						"ulfasar": "Ulfasar",
-						"bovidae": "Bovidae",
-						"cannent": "Cannent",
-						"harakin": "Harakin",
-						"lunafel": "Lunafel",
-						"wukon": "Wukon",
-						"dosh": "Dosh",
-						
-						"strength": "Strength",
-						"agility": "Agility",
-						"intelligence": "Intelligence",
-						"universal": "Universal",
-						"health": "Health",
-						"attack-speed": "Attack Speed",
-						"attack-damage": "Attack Damage",
-						"lifesteal": "Lifesteal",
-						"spell-lifesteal": "Spell Lifesteal",
-						"speed": "Speed",
-						"physical-protection": "Physical Protection",
-						"magical-protection": "Magical Protection",
-						"magic-recovery": {
-							"label": "Magic Recovery",
-							"description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
-						},
-						
-					"triceranyl": "Triceranyl",
-					"darkling": "Darkling",
-					"kemono": "Kemono",
-					"draconid": "Draconid",
-					"kira": "Kira",
-					"khaxi": "Khaxi",
-					"karakuri": "Karakuri",
-					"key-item": {
-						"label": "Key Item",
-						"description": "This item has a significant purpose in the Campaign."
-					},
-					"follower": "Follower"
-				}
-			}
-		}
-	}
+    "vionheart-content": {
+      "pf2e-homebrew": {
+        "skills": {
+          "additional": {
+            "romance": {
+              "label": "Romance",
+              "attribute": "cha"
+            }
+          }
+        },
+        "baseArmors": {},
+        "baseWeapons": {
+          "swordspear": "Swordspear",
+          "karakuri-blade": "Karakuri Blade",
+          "karakuri-blaster": "Karakuri Blaster",
+          "karakuri-cannon": "Karakuri Cannon",
+          "karakuri-saber": "Karakuri Saber",
+          "karakuri-bow": "Karakuri Bow"
+        },
+        "languages": {
+          "gartext": "Gartext",
+          "tricode": "Tricode",
+          "fiendish": "Fiendish",
+          "outworldic": "Outworldic",
+          "alofic": "Alofic",
+          "monsterspeech": "Monsterspeech",
+          "baruder": "Baruder",
+          "underune": "Underune",
+          "krixie": "Krixie",
+          "kodex": "Kodex"
+        },
+        "weaponGroups": {},
+        "creatureTraits": {
+          "heartner": "Heartner",
+          "triceranyl": "Triceranyl",
+          "darkling": "Darkling",
+          "khaxi": "Khaxi",
+          "draconid": "Draconid",
+          "kira": "Kira",
+          "kemono": "Kemono",
+          "alofian": "Alofian",
+          "garsek": "Garsek",
+          "nonyana": "Nonyana",
+          "broodle": "Broodle",
+          "brae": "Brae",
+          "felicat": "Felicat",
+          "kameleon": "Kameleon",
+          "kitsukin": "Kitsukin",
+          "kureira": "Kureira",
+          "lucaline": "Lucaline",
+          "meranth": "Meranth",
+          "ulfasar": "Ulfasar",
+          "bovidae": "Bovidae",
+          "cannent": "Cannent",
+          "fey-khaxi": "Fey Khaxi",
+          "shadow-khaxi": "Shadow Khaxi",
+          "regal-alofian": "Regal Alofian",
+          "harakin": "Harakin",
+          "lunafel": "Lunafel",
+          "follower": "Follower",
+          "wukon": "Wukon",
+          "karakuri": "Karakuri",
+          "dosh": "Dosh"
+        },
+        "featTraits": {
+          "heartner": "Heartner",
+          "triceranyl": "Triceranyl",
+          "darkling": "Darkling",
+          "draconid": "Draconid",
+          "kira": "Kira",
+          "kemono": "Kemono",
+          "alofian": "Alofian",
+          "regal-alofian": "Regal Alofian",
+          "garsek": "Garsek",
+          "nonyana": "Nonyana",
+          "broodle": "Broodle",
+          "brae": "Brae",
+          "felicat": "Felicat",
+          "kameleon": "Kameleon",
+          "kitsukin": "Kitsukin",
+          "kureira": "Kureira",
+          "lucaline": "Lucaline",
+          "meranth": "Meranth",
+          "ulfasar": "Ulfasar",
+          "bovidae": "Bovidae",
+          "cannent": "Cannent",
+          "khaxi": "Khaxi",
+          "fey-khaxi": "Fey Khaxi",
+          "shadow-khaxi": "Shadow Khaxi",
+          "harakin": "Harakin",
+          "lunafel": "Lunafel",
+          "wukon": "Wukon",
+          "dosh": "Dosh",
+          "follower": "Follower",
+          "karakuri": "Karakuri"
+        },
+        "spellTraits": {
+          "starpower": "Starpower",
+          "command-song": "Command Song",
+          "karakuri": "Karakuri",
+          "scarlet-wire": "Scarlet Wire",
+          "alofian": "Alofian",
+          "hero": "Hero",
+          "stratagem": "Stratagem",
+          "eye-technique": "Eye Technique"
+        },
+        "weaponTraits": {
+          "heartner": {
+            "label": "Heartner",
+            "description": "An item with this trait may confer a special bonus with its own rules detailed on the item."
+          },
+          "alofian": "Alofian",
+          "garsek": "Garsek",
+          "nonyana": "Nonyana",
+          "broodle": "Broodle",
+          "brae": "Brae",
+          "felicat": "Felicat",
+          "kameleon": "Kameleon",
+          "kitsukin": "Kitsukin",
+          "kureira": "Kureira",
+          "lucaline": "Lucaline",
+          "meranth": "Meranth",
+          "ulfasar": "Ulfasar",
+          "bovidae": "Bovidae",
+          "cannent": "Cannent",
+          "harakin": "Harakin",
+          "lunafel": "Lunafel",
+          "wukon": "Wukon",
+          "dosh": "Dosh",
+          "strength": "Strength",
+          "agility": "Agility",
+          "intelligence": "Intelligence",
+          "universal": "Universal",
+          "health": "Health",
+          "attack-speed": "Attack Speed",
+          "attack-damage": "Attack Damage",
+          "lifesteal": "Lifesteal",
+          "spell-lifesteal": "Spell Lifesteal",
+          "speed": "Speed",
+          "physical-protection": "Physical Protection",
+          "magical-protection": "Magical Protection",
+          "magic-recovery": {
+            "label": "Magic Recovery",
+            "description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
+          },
+          "triceranyl": "Triceranyl",
+          "darkling": "Darkling",
+          "kemono": "Kemono",
+          "draconid": "Draconid",
+          "kira": "Kira",
+          "khaxi": "Khaxi",
+          "karakuri": "Karakuri",
+          "key-item": {
+            "label": "Key Item",
+            "description": "This item has a significant purpose in the campaign."
+          },
+          "follower": "Follower"
+        },
+        "equipmentTraits": {
+          "heartner": {
+            "label": "Heartner",
+            "description": "An item with this trait may confer a special bonus with its own rules detailed on the item."
+          },
+          "alofian": "Alofian",
+          "garsek": "Garsek",
+          "nonyana": "Nonyana",
+          "broodle": "Broodle",
+          "brae": "Brae",
+          "felicat": "Felicat",
+          "kameleon": "Kameleon",
+          "kitsukin": "Kitsukin",
+          "kureira": "Kureira",
+          "lucaline": "Lucaline",
+          "meranth": "Meranth",
+          "ulfasar": "Ulfasar",
+          "bovidae": "Bovidae",
+          "cannent": "Cannent",
+          "harakin": "Harakin",
+          "lunafel": "Lunafel",
+          "wukon": "Wukon",
+          "dosh": "Dosh",
+          "strength": "Strength",
+          "agility": "Agility",
+          "intelligence": "Intelligence",
+          "universal": "Universal",
+          "health": "Health",
+          "attack-speed": "Attack Speed",
+          "attack-damage": "Attack Damage",
+          "lifesteal": "Lifesteal",
+          "spell-lifesteal": "Spell Lifesteal",
+          "speed": "Speed",
+          "physical-protection": "Physical Protection",
+          "magical-protection": "Magical Protection",
+          "magic-recovery": {
+            "label": "Magic Recovery",
+            "description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
+          },
+          "triceranyl": "Triceranyl",
+          "darkling": "Darkling",
+          "kemono": "Kemono",
+          "draconid": "Draconid",
+          "kira": "Kira",
+          "khaxi": "Khaxi",
+          "karakuri": "Karakuri",
+          "key-item": {
+            "label": "Key Item",
+            "description": "This item has a significant purpose in the Campaign."
+          },
+          "follower": "Follower"
+        }
+      }
+    }
+  }
 }
