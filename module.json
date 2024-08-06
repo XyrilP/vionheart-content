@@ -1,0 +1,445 @@
+{
+  "id": "vionheart-content",
+  "title": "Vionheart Content",
+  "version": "3.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "description": "Content for the Vionheart campaign setting.",
+  "authors": [
+    {
+      "name": "Xyril P.",
+      "discord": "xyrilp.",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "vionheart-player-characters",
+      "label": "Vionheart Player Characters",
+      "path": "packs/vionheart-player-characters",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-non-player-characters",
+      "label": "Vionheart Non-Player Characters",
+      "path": "packs/vionheart-non-player-characters",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-monsters",
+      "label": "Vionheart Monsters",
+      "path": "packs/vionheart-monsters",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-items",
+      "label": "Vionheart Items",
+      "path": "packs/vionheart-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-spells",
+      "label": "Vionheart Spells",
+      "path": "packs/vionheart-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-feats",
+      "label": "Vionheart Feats",
+      "path": "packs/vionheart-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-ancestries",
+      "label": "Vionheart Ancestries",
+      "path": "packs/vionheart-ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-heritages",
+      "label": "Vionheart Heritages",
+      "path": "packs/vionheart-heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-backgrounds",
+      "label": "Vionheart  Backgrounds",
+      "path": "packs/vionheart-backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-effects",
+      "label": "Vionheart Effects",
+      "path": "packs/vionheart-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-actions",
+      "label": "Vionheart Actions",
+      "path": "packs/vionheart-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-journal-entries",
+      "label": "Vionheart Journal Entries",
+      "path": "packs/vionheart-journal-entries",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-macros",
+      "label": "Vionheart Macros",
+      "path": "packs/vionheart-macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-features",
+      "label": "Vionheart Features",
+      "path": "packs/vionheart-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-iconics",
+      "label": "Vionheart Iconics",
+      "path": "packs/vionheart-iconics",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-scenes",
+      "label": "Vionheart Scenes",
+      "path": "packs/vionheart-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-ancestryheritage-templates",
+      "label": "Vionheart NPC Templates",
+      "path": "packs/vionheart-ancestryheritage-templates",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vionheart-deities",
+      "label": "Vionheart Deities",
+      "path": "packs/vionheart-deities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {
+        "vionheart-content": {
+            "pf2e-homebrew": {
+                "skills": {
+                    "additional": {
+                        "romance": {
+							"label": "Romance",
+							"attribute": "cha"
+                        }
+                    }
+                },
+                "baseArmors": {},
+                "baseWeapons": {
+					"swordspear": "Swordspear",
+					"karakuri-blade": "Karakuri Blade",
+					"karakuri-blaster": "Karakuri Blaster",
+					"karakuri-cannon": "Karakuri Cannon",
+					"karakuri-saber": "Karakuri Saber",
+					"karakuri-bow": "Karakuri Bow"
+				},
+                "languages": {
+					"gartext": "Gartext",
+					"tricode": "Tricode",
+					"fiendish": "Fiendish",
+					"outworldic": "Outworldic",
+					"alofic": "Alofic",
+					"monsterspeech": "Monsterspeech",
+					"baruder": "Baruder",
+					"underune": "Underune",
+					"krixie": "Krixie",
+					"kodex": "Kodex"
+				},
+                "weaponGroups": {},
+                "creatureTraits": {
+					"heartner": "Heartner",
+					"triceranyl": "Triceranyl",
+					"darkling": "Darkling",
+					"khaxi": "Khaxi",
+					"draconid": "Draconid",
+					"kira": "Kira",
+					"kemono": "Kemono",
+					"alofian": "Alofian",
+					"garsek": "Garsek",
+					"nonyana": "Nonyana",
+					"broodle": "Broodle",
+					"brae": "Brae",
+					"felicat": "Felicat",
+					"kameleon": "Kameleon",
+					"kitsukin": "Kitsukin",
+					"kureira": "Kureira",
+					"lucaline": "Lucaline",
+					"meranth": "Meranth",
+					"ulfasar": "Ulfasar",
+					"bovidae": "Bovidae",
+					"cannent": "Cannent",
+					"fey-khaxi": "Fey Khaxi",
+					"shadow-khaxi": "Shadow Khaxi",
+					"regal-alofian": "Regal Alofian",
+					"harakin": "Harakin",
+					"lunafel": "Lunafel",
+					"follower": "Follower",
+					"wukon": "Wukon",
+					"karakuri": "Karakuri",
+					"dosh": "Dosh"
+				},
+                "featTraits": {
+					"heartner": "Heartner",
+					"triceranyl": "Triceranyl",
+					"darkling": "Darkling",
+					"draconid": "Draconid",
+					"kira": "Kira",
+					"kemono": "Kemono",
+					"alofian": "Alofian",
+					"regal-alofian": "Regal Alofian",
+					"garsek": "Garsek",
+					"nonyana": "Nonyana",
+					"broodle": "Broodle",
+					"brae": "Brae",
+					"felicat": "Felicat",
+					"kameleon": "Kameleon",
+					"kitsukin": "Kitsukin",
+					"kureira": "Kureira",
+					"lucaline": "Lucaline",
+					"meranth": "Meranth",
+					"ulfasar": "Ulfasar",
+					"bovidae": "Bovidae",
+					"cannent": "Cannent",
+					"khaxi": "Khaxi",
+					"fey-khaxi": "Fey Khaxi",
+					"shadow-khaxi": "Shadow Khaxi",
+					"harakin": "Harakin",
+					"lunafel": "Lunafel",
+					"wukon": "Wukon",
+					"dosh": "Dosh",
+					"follower": "Follower",
+					"karakuri": "Karakuri"
+				},
+                "spellTraits": {
+					"starpower": "Starpower",
+					"command-song": "Command Song",
+					"karakuri": "Karakuri",
+					"scarlet-wire": "Scarlet Wire",
+					"alofian": "Alofian",
+					"hero": "Hero",
+					"stratagem": "Stratagem",
+					"eye-technique": "Eye Technique"
+                },
+                "weaponTraits": {
+					"heartner": {
+						"label": "Heartner",
+						"description": "An item with this trait may confer a special bonus with its own rules detailed on the item."
+					},
+						"alofian": "Alofian",
+						"garsek": "Garsek",
+						"nonyana": "Nonyana",
+						"broodle": "Broodle",
+						"brae": "Brae",
+						"felicat": "Felicat",
+						"kameleon": "Kameleon",
+						"kitsukin": "Kitsukin",
+						"kureira": "Kureira",
+						"lucaline": "Lucaline",
+						"meranth": "Meranth",
+						"ulfasar": "Ulfasar",
+						"bovidae": "Bovidae",
+						"cannent": "Cannent",
+						"harakin": "Harakin",
+						"lunafel": "Lunafel",
+						"wukon": "Wukon",
+						"dosh": "Dosh",
+						
+						"strength": "Strength",
+						"agility": "Agility",
+						"intelligence": "Intelligence",
+						"universal": "Universal",
+						"health": "Health",
+						"attack-speed": "Attack Speed",
+						"attack-damage": "Attack Damage",
+						"lifesteal": "Lifesteal",
+						"spell-lifesteal": "Spell Lifesteal",
+						"speed": "Speed",
+						"physical-protection": "Physical Protection",
+						"magical-protection": "Magical Protection",
+						"magic-recovery": {
+							"label": "Magic Recovery",
+							"description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
+						},
+						
+					"triceranyl": "Triceranyl",
+					"darkling": "Darkling",
+					"kemono": "Kemono",
+					"draconid": "Draconid",
+					"kira": "Kira",
+					"khaxi": "Khaxi",
+					"karakuri": "Karakuri",
+					"key-item": {
+						"label": "Key Item",
+						"description": "This item has a significant purpose in the campaign."
+					},
+					"follower": "Follower"
+				},
+				"equipmentTraits": {
+					"heartner": {
+						"label": "Heartner",
+						"description": "An item with this trait may confer a special bonus with its own rules detailed on the item."
+					},
+						"alofian": "Alofian",
+						"garsek": "Garsek",
+						"nonyana": "Nonyana",
+						"broodle": "Broodle",
+						"brae": "Brae",
+						"felicat": "Felicat",
+						"kameleon": "Kameleon",
+						"kitsukin": "Kitsukin",
+						"kureira": "Kureira",
+						"lucaline": "Lucaline",
+						"meranth": "Meranth",
+						"ulfasar": "Ulfasar",
+						"bovidae": "Bovidae",
+						"cannent": "Cannent",
+						"harakin": "Harakin",
+						"lunafel": "Lunafel",
+						"wukon": "Wukon",
+						"dosh": "Dosh",
+						
+						"strength": "Strength",
+						"agility": "Agility",
+						"intelligence": "Intelligence",
+						"universal": "Universal",
+						"health": "Health",
+						"attack-speed": "Attack Speed",
+						"attack-damage": "Attack Damage",
+						"lifesteal": "Lifesteal",
+						"spell-lifesteal": "Spell Lifesteal",
+						"speed": "Speed",
+						"physical-protection": "Physical Protection",
+						"magical-protection": "Magical Protection",
+						"magic-recovery": {
+							"label": "Magic Recovery",
+							"description": "This item allow spellcasters to regain their spell slots.\nWhen you recover Magic Points, you regain a spell slot equal to the Magic Points recovered or lower, you can divide the amount as many times as you want to regain multiple, lower ranked spell slots."
+						},
+						
+					"triceranyl": "Triceranyl",
+					"darkling": "Darkling",
+					"kemono": "Kemono",
+					"draconid": "Draconid",
+					"kira": "Kira",
+					"khaxi": "Khaxi",
+					"karakuri": "Karakuri",
+					"key-item": {
+						"label": "Key Item",
+						"description": "This item has a significant purpose in the Campaign."
+					},
+					"follower": "Follower"
+				}
+			}
+		}
+	}
+}
