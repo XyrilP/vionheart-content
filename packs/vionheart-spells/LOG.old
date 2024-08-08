@@ -1,3 +1,8 @@
-2024/08/07-11:31:03.349 3bac Recovering log #3432
-2024/08/07-11:31:03.354 3bac Delete type=0 #3432
-2024/08/07-11:31:03.354 3bac Delete type=3 #3431
+2024/08/08-11:51:15.734 3de8 Recovering log #3442
+2024/08/08-11:51:15.738 3de8 Delete type=0 #3442
+2024/08/08-11:51:15.739 3de8 Delete type=3 #3441
+2024/08/08-11:51:35.106 af8 Level-0 table #3446: started
+2024/08/08-11:51:35.106 af8 Level-0 table #3446: 0 bytes OK
+2024/08/08-11:51:35.109 af8 Delete type=0 #3444
+2024/08/08-11:51:35.112 af8 Manual compaction at level-0 from '!folders!4qW92N162XQk4tuV' @ 72057594037927935 : 1 .. '!items!y6JI8YI5MbPQhECU' @ 0 : 0; will stop at (end)
+2024/08/08-11:51:35.124 af8 Manual compaction at level-1 from '!folders!4qW92N162XQk4tuV' @ 72057594037927935 : 1 .. '!items!y6JI8YI5MbPQhECU' @ 0 : 0; will stop at (end)
