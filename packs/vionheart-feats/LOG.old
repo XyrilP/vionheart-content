@@ -1,23 +1,8 @@
-2024/08/08-11:51:15.765 2a94 Recovering log #3673
-2024/08/08-11:51:15.765 2a94 Level-0 table #3675: started
-2024/08/08-11:51:15.768 2a94 Level-0 table #3675: 15838 bytes OK
-2024/08/08-11:51:15.773 2a94 Delete type=0 #3673
-2024/08/08-11:51:15.773 2a94 Delete type=3 #3672
-2024/08/08-11:51:35.109 af8 Level-0 table #3678: started
-2024/08/08-11:51:35.109 af8 Level-0 table #3678: 0 bytes OK
-2024/08/08-11:51:35.111 af8 Delete type=0 #3676
-2024/08/08-11:51:35.112 af8 Manual compaction at level-0 from '!folders!1N6kMr5fb99ppffs' @ 72057594037927935 : 1 .. '!items!zkBF123BC0whc4tg' @ 0 : 0; will stop at '!items!D9857w8CzUsTAcP4' @ 7967 : 1
-2024/08/08-11:51:35.113 af8 Compacting 1@0 + 0@1 files
-2024/08/08-11:51:35.121 af8 Generated table #3679@0: 1 keys, 1961 bytes
-2024/08/08-11:51:35.121 af8 Compacted 1@0 + 0@1 files => 1961 bytes
-2024/08/08-11:51:35.123 af8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/08/08-11:51:35.123 af8 Delete type=2 #3675
-2024/08/08-11:51:35.124 af8 Manual compaction at level-0 from '!items!D9857w8CzUsTAcP4' @ 7967 : 1 .. '!items!zkBF123BC0whc4tg' @ 0 : 0; will stop at (end)
-2024/08/08-11:51:35.124 af8 Manual compaction at level-1 from '!folders!1N6kMr5fb99ppffs' @ 72057594037927935 : 1 .. '!items!zkBF123BC0whc4tg' @ 0 : 0; will stop at '!items!D9857w8CzUsTAcP4' @ 7981 : 1
-2024/08/08-11:51:35.124 af8 Compacting 1@1 + 1@2 files
-2024/08/08-11:51:35.134 af8 Generated table #3680@1: 250 keys, 157996 bytes
-2024/08/08-11:51:35.134 af8 Compacted 1@1 + 1@2 files => 157996 bytes
-2024/08/08-11:51:35.135 af8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/08/08-11:51:35.135 af8 Delete type=2 #3661
-2024/08/08-11:51:35.135 af8 Delete type=2 #3679
-2024/08/08-11:51:35.141 af8 Manual compaction at level-1 from '!items!D9857w8CzUsTAcP4' @ 7981 : 1 .. '!items!zkBF123BC0whc4tg' @ 0 : 0; will stop at (end)
+2024/08/08-17:14:03.447 128c Recovering log #3686
+2024/08/08-17:14:03.451 128c Delete type=0 #3686
+2024/08/08-17:14:03.451 128c Delete type=3 #3685
+2024/08/08-17:29:31.631 1334 Level-0 table #3690: started
+2024/08/08-17:29:31.632 1334 Level-0 table #3690: 0 bytes OK
+2024/08/08-17:29:31.633 1334 Delete type=0 #3688
+2024/08/08-17:29:31.636 1334 Manual compaction at level-0 from '!folders!1N6kMr5fb99ppffs' @ 72057594037927935 : 1 .. '!items!zkBF123BC0whc4tg' @ 0 : 0; will stop at (end)
+2024/08/08-17:29:31.638 1334 Manual compaction at level-1 from '!folders!1N6kMr5fb99ppffs' @ 72057594037927935 : 1 .. '!items!zkBF123BC0whc4tg' @ 0 : 0; will stop at (end)
