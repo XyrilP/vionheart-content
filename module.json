@@ -3,7 +3,7 @@
   "title": "Vionheart Content",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-content/archive/refs/heads/main.zip",
-  "version": "6.3.1.6",
+  "version": "7.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
