@@ -1,21 +1,8 @@
-2024/08/14-12:29:58.911 2830 Recovering log #3661
-2024/08/14-12:29:58.919 2830 Delete type=0 #3661
-2024/08/14-12:29:58.919 2830 Delete type=3 #3660
-2024/08/14-12:30:48.429 3828 Level-0 table #3665: started
-2024/08/14-12:30:48.429 3828 Level-0 table #3665: 0 bytes OK
-2024/08/14-12:30:48.430 3828 Delete type=0 #3663
-2024/08/14-12:30:48.460 3828 Manual compaction at level-0 from '!folders!Cn8UXqxqywkuBfQU' @ 72057594037927935 : 1 .. '!items!xvBXkaP6WzQoNzfw' @ 0 : 0; will stop at '!items!nTjhsSOWJK0KCO8t' @ 7295 : 1
-2024/08/14-12:30:48.460 3828 Compacting 1@0 + 0@1 files
-2024/08/14-12:30:48.473 3828 Generated table #3666@0: 1 keys, 1384 bytes
-2024/08/14-12:30:48.473 3828 Compacted 1@0 + 0@1 files => 1384 bytes
-2024/08/14-12:30:48.475 3828 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/08/14-12:30:48.475 3828 Delete type=2 #3658
-2024/08/14-12:30:48.475 3828 Manual compaction at level-0 from '!items!nTjhsSOWJK0KCO8t' @ 7295 : 1 .. '!items!xvBXkaP6WzQoNzfw' @ 0 : 0; will stop at (end)
-2024/08/14-12:30:48.482 3828 Manual compaction at level-1 from '!folders!Cn8UXqxqywkuBfQU' @ 72057594037927935 : 1 .. '!items!xvBXkaP6WzQoNzfw' @ 0 : 0; will stop at '!items!nTjhsSOWJK0KCO8t' @ 7295 : 1
-2024/08/14-12:30:48.482 3828 Compacting 1@1 + 1@2 files
-2024/08/14-12:30:48.496 3828 Generated table #3667@1: 51 keys, 53674 bytes
-2024/08/14-12:30:48.496 3828 Compacted 1@1 + 1@2 files => 53674 bytes
-2024/08/14-12:30:48.498 3828 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/08/14-12:30:48.498 3828 Delete type=2 #3600
-2024/08/14-12:30:48.498 3828 Delete type=2 #3666
-2024/08/14-12:30:48.502 3828 Manual compaction at level-1 from '!items!nTjhsSOWJK0KCO8t' @ 7295 : 1 .. '!items!xvBXkaP6WzQoNzfw' @ 0 : 0; will stop at (end)
+2024/08/15-21:26:48.517 4e80 Recovering log #3687
+2024/08/15-21:26:48.522 4e80 Delete type=0 #3687
+2024/08/15-21:26:48.522 4e80 Delete type=3 #3686
+2024/08/15-21:27:05.141 2300 Level-0 table #3691: started
+2024/08/15-21:27:05.141 2300 Level-0 table #3691: 0 bytes OK
+2024/08/15-21:27:05.144 2300 Delete type=0 #3689
+2024/08/15-21:27:05.149 2300 Manual compaction at level-0 from '!folders!Cn8UXqxqywkuBfQU' @ 72057594037927935 : 1 .. '!items!xvBXkaP6WzQoNzfw' @ 0 : 0; will stop at (end)
+2024/08/15-21:27:05.149 2300 Manual compaction at level-1 from '!folders!Cn8UXqxqywkuBfQU' @ 72057594037927935 : 1 .. '!items!xvBXkaP6WzQoNzfw' @ 0 : 0; will stop at (end)
