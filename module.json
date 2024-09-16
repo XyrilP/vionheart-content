@@ -3,7 +3,7 @@
   "title": "Vionheart Content",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-content/archive/refs/heads/main.zip",
-  "version": "7.0.3",
+  "version": "7.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -263,7 +263,11 @@
           "baruder": "Baruder",
           "underune": "Underune",
           "krixie": "Krixie",
-          "kodex": "Kodex"
+          "kodex": "Kodex",
+		  "heartsharp": "Heartsharp",
+		  "english": "English",
+		  "spanish": "Spanish",
+		  "chinese": "Chinese"
         },
         "weaponGroups": {},
         "creatureTraits": {
