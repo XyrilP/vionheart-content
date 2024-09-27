@@ -1,25 +1,3 @@
-2024/09/16-12:31:26.522 42d4 Recovering log #3768
-2024/09/16-12:31:26.523 42d4 Level-0 table #3770: started
-2024/09/16-12:31:26.530 42d4 Level-0 table #3770: 115967 bytes OK
-2024/09/16-12:31:26.536 42d4 Delete type=0 #3768
-2024/09/16-12:31:26.537 42d4 Delete type=3 #3767
-2024/09/16-13:30:41.940 3ce0 Moved #3770 to level-1 115967 bytes OK: files[ 0 1 1 0 0 0 0 ]
-2024/09/16-13:59:06.087 3ce0 Level-0 table #3773: started
-2024/09/16-13:59:06.094 3ce0 Level-0 table #3773: 67024 bytes OK
-2024/09/16-13:59:06.096 3ce0 Delete type=0 #3771
-2024/09/16-13:59:06.112 3ce0 Manual compaction at level-0 from '!folders!3tDwisC5Lz48Vnop' @ 72057594037927935 : 1 .. '!items!y1guUiOnXv3HvvIC' @ 0 : 0; will stop at '!items!rgnrDwqxfVSXKB0C' @ 1344 : 1
-2024/09/16-13:59:06.112 3ce0 Compacting 1@0 + 1@1 files
-2024/09/16-13:59:06.116 3ce0 Generated table #3774@0: 16 keys, 18636 bytes
-2024/09/16-13:59:06.116 3ce0 Compacted 1@0 + 1@1 files => 18636 bytes
-2024/09/16-13:59:06.118 3ce0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/09/16-13:59:06.118 3ce0 Delete type=2 #3770
-2024/09/16-13:59:06.119 3ce0 Delete type=2 #3773
-2024/09/16-13:59:06.143 3ce0 Manual compaction at level-0 from '!items!rgnrDwqxfVSXKB0C' @ 1344 : 1 .. '!items!y1guUiOnXv3HvvIC' @ 0 : 0; will stop at (end)
-2024/09/16-13:59:06.143 3ce0 Manual compaction at level-1 from '!folders!3tDwisC5Lz48Vnop' @ 72057594037927935 : 1 .. '!items!y1guUiOnXv3HvvIC' @ 0 : 0; will stop at '!items!t7cvsbHDM2LEkm7t' @ 1284 : 1
-2024/09/16-13:59:06.143 3ce0 Compacting 1@1 + 1@2 files
-2024/09/16-13:59:06.148 3ce0 Generated table #3775@1: 55 keys, 47207 bytes
-2024/09/16-13:59:06.148 3ce0 Compacted 1@1 + 1@2 files => 47207 bytes
-2024/09/16-13:59:06.149 3ce0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/09/16-13:59:06.149 3ce0 Delete type=2 #3732
-2024/09/16-13:59:06.149 3ce0 Delete type=2 #3774
-2024/09/16-13:59:06.170 3ce0 Manual compaction at level-1 from '!items!t7cvsbHDM2LEkm7t' @ 1284 : 1 .. '!items!y1guUiOnXv3HvvIC' @ 0 : 0; will stop at (end)
+2024/09/27-07:57:07.856 b80 Recovering log #3816
+2024/09/27-07:57:07.860 b80 Delete type=0 #3816
+2024/09/27-07:57:07.860 b80 Delete type=3 #3814
