@@ -3,7 +3,7 @@
   "title": "Vionheart Content",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-content/archive/refs/heads/main.zip",
-  "version": "7.2",
+  "version": "7.2.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -217,6 +217,40 @@
       }
     }
   ],
+  "packFolders": [
+        {
+            "name": "Vionheart Content",
+            "color": "#C864C8",
+            "sorting": "a",
+            "folders": [
+                {
+                    "name": "Base",
+                    "sorting": "a",
+                    "color": "#C864C8",
+                    "packs": [
+						"vionheart-player-characters",
+						"vionheart-non-player-characters",
+						"vionheart-monsters",
+						"vionheart-items",
+						"vionheart-spells",
+						"vionheart-feats",
+						"vionheart-ancestries",
+						"vionheart-heritages",
+						"vionheart-backgrounds",
+						"vionheart-effects",
+						"vionheart-actions",
+						"vionheart-journal-entries",
+						"vionheart-macros",
+						"vionheart-features",
+						"vionheart-iconics",
+						"vionheart-scenes",
+						"vionheart-ancestryheritage-templates",
+						"vionheart-deities"
+                    ]
+                }
+            ]
+        }
+    ],
   "relationships": {
     "systems": [
       {
@@ -333,7 +367,8 @@
           "wukon": "Wukon",
           "dosh": "Dosh",
           "follower": "Follower",
-          "karakuri": "Karakuri"
+          "karakuri": "Karakuri",
+		  "perk": "Perk"
         },
         "spellTraits": {
           "starpower": "Starpower",
