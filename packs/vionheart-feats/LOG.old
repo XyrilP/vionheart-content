@@ -1,22 +1,5 @@
-2024/12/24-07:11:43.066 484 Recovering log #4489
-2024/12/24-07:11:43.072 484 Delete type=0 #4489
-2024/12/24-07:11:43.072 484 Delete type=3 #4487
-2024/12/24-07:12:35.318 2c4 Level-0 table #4493: started
-2024/12/24-07:12:35.318 2c4 Level-0 table #4493: 0 bytes OK
-2024/12/24-07:12:35.320 2c4 Delete type=0 #4491
-2024/12/24-07:12:35.330 2c4 Manual compaction at level-0 from '!folders!1GXEI2j0XgT4vnHv' @ 72057594037927935 : 1 .. '!items!zkLZn4jOT9TXcEY6' @ 0 : 0; will stop at '!items!ywLVvkE71so3CqwC' @ 9590 : 1
-2024/12/24-07:12:35.330 2c4 Compacting 1@0 + 1@1 files
-2024/12/24-07:12:35.354 2c4 Generated table #4494@0: 304 keys, 238933 bytes
-2024/12/24-07:12:35.354 2c4 Compacted 1@0 + 1@1 files => 238933 bytes
-2024/12/24-07:12:35.356 2c4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/12/24-07:12:35.356 2c4 Delete type=2 #4483
-2024/12/24-07:12:35.356 2c4 Delete type=2 #4488
-2024/12/24-07:12:35.370 2c4 Manual compaction at level-0 from '!items!ywLVvkE71so3CqwC' @ 9590 : 1 .. '!items!zkLZn4jOT9TXcEY6' @ 0 : 0; will stop at (end)
-2024/12/24-07:12:35.373 2c4 Manual compaction at level-1 from '!folders!1GXEI2j0XgT4vnHv' @ 72057594037927935 : 1 .. '!items!zkLZn4jOT9TXcEY6' @ 0 : 0; will stop at '!items!zkLZn4jOT9TXcEY6' @ 9403 : 1
-2024/12/24-07:12:35.373 2c4 Compacting 1@1 + 1@2 files
-2024/12/24-07:12:35.386 2c4 Generated table #4495@1: 379 keys, 261519 bytes
-2024/12/24-07:12:35.386 2c4 Compacted 1@1 + 1@2 files => 261519 bytes
-2024/12/24-07:12:35.388 2c4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/24-07:12:35.388 2c4 Delete type=2 #4473
-2024/12/24-07:12:35.388 2c4 Delete type=2 #4494
-2024/12/24-07:12:35.403 2c4 Manual compaction at level-1 from '!items!zkLZn4jOT9TXcEY6' @ 9403 : 1 .. '!items!zkLZn4jOT9TXcEY6' @ 0 : 0; will stop at (end)
+2025/04/06-06:39:28.557 2f00 Recovering log #5171
+2025/04/06-06:39:28.557 2f00 Level-0 table #5173: started
+2025/04/06-06:39:28.621 2f00 Level-0 table #5173: 9660 bytes OK
+2025/04/06-06:39:28.707 2f00 Delete type=0 #5171
+2025/04/06-06:39:28.707 2f00 Delete type=3 #5169

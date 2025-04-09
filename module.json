@@ -3,7 +3,7 @@
   "title": "Vionheart Content",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-content/archive/refs/heads/main.zip",
-  "version": "7.2.2",
+  "version": "8.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12",
@@ -215,42 +215,56 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "vionheart-playlists",
+      "label": "Vionheart Playlists",
+      "path": "packs/vionheart-playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
     }
   ],
   "packFolders": [
+    {
+      "name": "Vionheart Content",
+      "color": "#c864c8",
+      "sorting": "a",
+      "folders": [
         {
-            "name": "Vionheart Content",
-            "color": "#C864C8",
-            "sorting": "a",
-            "folders": [
-                {
-                    "name": "Base",
-                    "sorting": "a",
-                    "color": "#C864C8",
-                    "packs": [
-						"vionheart-player-characters",
-						"vionheart-non-player-characters",
-						"vionheart-monsters",
-						"vionheart-items",
-						"vionheart-spells",
-						"vionheart-feats",
-						"vionheart-ancestries",
-						"vionheart-heritages",
-						"vionheart-backgrounds",
-						"vionheart-effects",
-						"vionheart-actions",
-						"vionheart-journal-entries",
-						"vionheart-macros",
-						"vionheart-features",
-						"vionheart-iconics",
-						"vionheart-scenes",
-						"vionheart-ancestryheritage-templates",
-						"vionheart-deities"
-                    ]
-                }
-            ]
+          "name": "Base",
+          "sorting": "a",
+          "color": "#c864c8",
+          "packs": [
+            "vionheart-player-characters",
+            "vionheart-non-player-characters",
+            "vionheart-monsters",
+            "vionheart-items",
+            "vionheart-spells",
+            "vionheart-feats",
+            "vionheart-ancestries",
+            "vionheart-heritages",
+            "vionheart-backgrounds",
+            "vionheart-effects",
+            "vionheart-actions",
+            "vionheart-journal-entries",
+            "vionheart-macros",
+            "vionheart-features",
+            "vionheart-iconics",
+            "vionheart-scenes",
+            "vionheart-ancestryheritage-templates",
+            "vionheart-deities",
+			"vionheart-playlists"
+          ],
+          "folders": []
         }
-    ],
+      ],
+      "packs": []
+    }
+  ],
   "relationships": {
     "systems": [
       {
@@ -286,7 +300,7 @@
           "karakuri-cannon": "Karakuri Cannon",
           "karakuri-saber": "Karakuri Saber",
           "karakuri-bow": "Karakuri Bow",
-		  "combat-fishing-rod": "Combat Fishing Rod"
+          "combat-fishing-rod": "Combat Fishing Rod"
         },
         "languages": {
           "gartext": "Gartext",
@@ -299,10 +313,10 @@
           "underune": "Underune",
           "krixie": "Krixie",
           "kodex": "Kodex",
-		  "heartsharp": "Heartsharp",
-		  "english": "English",
-		  "spanish": "Spanish",
-		  "chinese": "Chinese"
+          "heartsharp": "Heartsharp",
+          "english": "English",
+          "spanish": "Spanish",
+          "chinese": "Chinese"
         },
         "weaponGroups": {},
         "creatureTraits": {
@@ -327,13 +341,16 @@
           "ulfasar": "Ulfasar",
           "bovidae": "Bovidae",
           "cannent": "Cannent",
-          "fey-khaxi": "Fey Khaxi",
-          "shadow-khaxi": "Shadow Khaxi",
+          "first-world-khaxi": "First World Khaxi",
+          "netherworld-khaxi": "Netherworld Khaxi",
+          "astral-khaxi": "Astral Khaxi",
+          "ethereal-khaxi": "Ethereal Khaxi",
           "regal-alofian": "Regal Alofian",
           "harakin": "Harakin",
           "lunafel": "Lunafel",
           "follower": "Follower",
           "wukon": "Wukon",
+          "vinxi": "Vinxi",
           "karakuri": "Karakuri",
           "dosh": "Dosh"
         },
@@ -360,15 +377,18 @@
           "bovidae": "Bovidae",
           "cannent": "Cannent",
           "khaxi": "Khaxi",
-          "fey-khaxi": "Fey Khaxi",
-          "shadow-khaxi": "Shadow Khaxi",
+          "first-world-khaxi": "First World Khaxi",
+          "netherworld-khaxi": "Netherworld Khaxi",
+          "astral-khaxi": "Astral Khaxi",
+          "ethereal-khaxi": "Ethereal Khaxi",
           "harakin": "Harakin",
           "lunafel": "Lunafel",
           "wukon": "Wukon",
           "dosh": "Dosh",
+          "vinxi": "Vinxi",
           "follower": "Follower",
           "karakuri": "Karakuri",
-		  "perk": "Perk"
+          "perk": "Perk"
         },
         "spellTraits": {
           "starpower": "Starpower",
@@ -405,6 +425,7 @@
           "draconid": "Draconid",
           "kira": "Kira",
           "khaxi": "Khaxi",
+          "vinxi": "Vinxi",
           "karakuri": "Karakuri",
           "key-item": {
             "label": "Key Item",
@@ -438,6 +459,7 @@
           "draconid": "Draconid",
           "kira": "Kira",
           "khaxi": "Khaxi",
+          "vinxi": "Vinxi",
           "karakuri": "Karakuri",
           "key-item": {
             "label": "Key Item",
