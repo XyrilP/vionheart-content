@@ -3,7 +3,7 @@
   "title": "Vionheart Content",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-content/archive/refs/heads/main.zip",
-  "version": "9.1",
+  "version": "9.1.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13",
@@ -226,6 +226,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+	{
+      "name": "vionheart-classes",
+      "label": "Vionheart Classes",
+      "path": "packs/vionheart-classes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -257,7 +268,8 @@
             "vionheart-scenes",
             "vionheart-ancestryheritage-templates",
             "vionheart-deities",
-            "vionheart-playlists"
+            "vionheart-playlists",
+			"vionheart-classes"
           ],
           "folders": []
         }
@@ -344,7 +356,9 @@
           "wukon": "Wukon",
           "vinxi": "Vinxi",
           "karakuri": "Karakuri",
-          "dosh": "Dosh"
+		  "creep": "Creep",
+          "dosh": "Dosh",
+		  "durana": "Durana"
         },
         "featTraits": {
           "heartner": "Heartner",
@@ -378,9 +392,12 @@
           "wukon": "Wukon",
           "dosh": "Dosh",
           "vinxi": "Vinxi",
+		  "creep": "Creep",
+		  "durana": "Durana",
           "follower": "Follower",
           "karakuri": "Karakuri",
-          "perk": "Perk"
+          "perk": "Perk",
+		  "apprentice": "Apprentice"
         },
         "spellTraits": {
           "starpower": "Starpower",
@@ -423,7 +440,11 @@
             "label": "Key Item",
             "description": "This item has a significant purpose in the campaign."
           },
-          "follower": "Follower"
+          "follower": "Follower",
+		  "neoteric": {
+			  "label": "Neoteric",
+			  "description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
+		  }
         },
         "equipmentTraits": {
           "heartner": "Heartner",
@@ -457,7 +478,11 @@
             "label": "Key Item",
             "description": "This item has a significant purpose in the Campaign."
           },
-          "follower": "Follower"
+          "follower": "Follower",
+		  "neoteric": {
+			  "label": "Neoteric",
+			  "description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
+		  }
         }
       }
     }
