@@ -1,3 +1,7 @@
-2025/12/27-07:53:22.453 2620 Recovering log #5348
-2025/12/27-07:53:22.504 2620 Delete type=0 #5348
-2025/12/27-07:53:22.504 2620 Delete type=3 #5347
+2026/01/22-08:36:14.144 2afc Recovering log #5438
+2026/01/22-08:36:14.152 2afc Delete type=0 #5438
+2026/01/22-08:36:14.152 2afc Delete type=3 #5435
+2026/01/22-08:36:41.088 2850 Level-0 table #5444: started
+2026/01/22-08:36:41.088 2850 Level-0 table #5444: 0 bytes OK
+2026/01/22-08:36:41.090 2850 Delete type=0 #5442
+2026/01/22-08:36:41.090 2850 Manual compaction at level-0 from '!items!8GFO97iiNde4uqbG' @ 72057594037927935 : 1 .. '!items!s4X8XwGR6M9PxVeV' @ 0 : 0; will stop at (end)

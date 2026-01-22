@@ -1,3 +1,8 @@
-2025/12/27-07:53:22.986 1fdc Recovering log #4569
-2025/12/27-07:53:23.157 1fdc Delete type=0 #4569
-2025/12/27-07:53:23.157 1fdc Delete type=3 #4568
+2026/01/22-08:36:14.327 2afc Recovering log #4657
+2026/01/22-08:36:14.332 2afc Delete type=0 #4657
+2026/01/22-08:36:14.332 2afc Delete type=3 #4654
+2026/01/22-08:36:41.110 2850 Level-0 table #4664: started
+2026/01/22-08:36:41.110 2850 Level-0 table #4664: 0 bytes OK
+2026/01/22-08:36:41.112 2850 Delete type=0 #4662
+2026/01/22-08:36:41.115 2850 Manual compaction at level-0 from '!folders!gmRcKy9FWgkY9SWt' @ 72057594037927935 : 1 .. '!items!wfNQf0YrekrlQgwy' @ 0 : 0; will stop at (end)
+2026/01/22-08:36:41.115 2850 Manual compaction at level-1 from '!folders!gmRcKy9FWgkY9SWt' @ 72057594037927935 : 1 .. '!items!wfNQf0YrekrlQgwy' @ 0 : 0; will stop at (end)
