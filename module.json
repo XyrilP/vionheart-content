@@ -3,11 +3,11 @@
   "title": "Vionheart Content",
   "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
   "download": "https://github.com/XyrilP/vionheart-content/archive/refs/heads/main.zip",
-  "version": "10",
+  "version": "12.1",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13",
-    "maximum": "13"
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
   },
   "description": "<p>Content for the Vionheart campaign setting.</p>",
   "authors": [
@@ -27,7 +27,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-non-player-characters",
@@ -38,7 +39,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-monsters",
@@ -49,7 +51,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-items",
@@ -60,7 +63,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-spells",
@@ -71,7 +75,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-feats",
@@ -82,7 +87,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-ancestries",
@@ -93,7 +99,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-heritages",
@@ -104,7 +111,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-backgrounds",
@@ -115,7 +123,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-effects",
@@ -126,7 +135,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-actions",
@@ -137,7 +147,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-journal-entries",
@@ -148,7 +159,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-macros",
@@ -159,7 +171,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-features",
@@ -170,7 +183,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-iconics",
@@ -181,7 +195,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-scenes",
@@ -192,7 +207,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-ancestryheritage-templates",
@@ -203,7 +219,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-deities",
@@ -214,7 +231,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vionheart-playlists",
@@ -225,9 +243,10 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
-	{
+    {
       "name": "vionheart-classes",
       "label": "Vionheart Classes",
       "path": "packs/vionheart-classes",
@@ -236,7 +255,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -269,7 +289,7 @@
             "vionheart-ancestryheritage-templates",
             "vionheart-deities",
             "vionheart-playlists",
-			"vionheart-classes"
+            "vionheart-classes"
           ],
           "folders": []
         }
@@ -281,6 +301,11 @@
     "systems": [
       {
         "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "sf2e",
         "type": "system",
         "compatibility": {}
       }
@@ -356,10 +381,15 @@
           "wukon": "Wukon",
           "vinxi": "Vinxi",
           "karakuri": "Karakuri",
-		  "creep": "Creep",
+          "creep": "Creep",
           "dosh": "Dosh",
-		  "durana": "Durana",
-		  "rigz": "Rigz"
+          "durana": "Durana",
+          "rigz": "Posslin",
+          "cryothinian": "Cryothinian",
+          "ukarian": "Ukarian",
+          "ilnishian": "Ilnishian",
+          "seihnish": "Seihnish",
+          "luminescence": "Luminescence"
         },
         "featTraits": {
           "heartner": "Heartner",
@@ -393,16 +423,18 @@
           "wukon": "Wukon",
           "dosh": "Dosh",
           "vinxi": "Vinxi",
-		  "creep": "Creep",
-		  "durana": "Durana",
+          "creep": "Creep",
+          "durana": "Durana",
           "follower": "Follower",
           "karakuri": "Karakuri",
           "perk": "Perk",
-		  "apprentice": "Apprentice",
-		  "facet": {
-			  "label": "Facet",
-			  "description": "A facet changes aspects of this creature, granting both benefits and disbenefits."
-		  }
+          "apprentice": "Apprentice",
+          "facet": {
+            "label": "Facet",
+            "description": "A facet changes aspects of this creature, granting both benefits and disbenefits."
+          },
+          "cryothinian": "Cryothinian",
+		  "defend": "Defend"
         },
         "spellTraits": {
           "starpower": "Starpower",
@@ -411,7 +443,8 @@
           "scarlet-wire": "Scarlet Wire",
           "alofian": "Alofian",
           "stratagem": "Stratagem",
-          "eye-technique": "Eye Technique"
+          "eye-technique": "Eye Technique",
+		  "defend": "Defend"
         },
         "weaponTraits": {
           "heartner": "Heartner",
@@ -446,10 +479,11 @@
             "description": "This item has a significant purpose in the campaign."
           },
           "follower": "Follower",
-		  "neoteric": {
-			  "label": "Neoteric",
-			  "description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
-		  }
+          "neoteric": {
+            "label": "Neoteric",
+            "description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
+          },
+          "cryothinian": "Cryothinian"
         },
         "equipmentTraits": {
           "heartner": "Heartner",
@@ -484,11 +518,28 @@
             "description": "This item has a significant purpose in the Campaign."
           },
           "follower": "Follower",
-		  "neoteric": {
-			  "label": "Neoteric",
-			  "description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
-		  }
-        }
+          "neoteric": {
+            "label": "Neoteric",
+            "description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
+          }
+        },
+		"damageTypes": {
+			"pure": {
+				"label": "Pure",
+				"category": "energy",
+				"icon": "fa-diamond"
+			},
+			"dragon": {
+				"label": "Dragon",
+				"category": "energy",
+				"icon": "fa-dragon"
+			},
+			"vurs-magic": {
+				"label": "Magic",
+				"category": "energy",
+				"icon": "fa-star"
+			}
+		}
       }
     }
   }
