@@ -1,546 +1,549 @@
 {
-  "id": "vionheart-content",
-  "title": "Vionheart Content",
-  "manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
-  "download": "https://github.com/XyrilP/vionheart-content/archive/refs/heads/main.zip",
-  "version": "12.1",
-  "compatibility": {
-    "minimum": "14",
-    "verified": "14",
-    "maximum": "14"
-  },
-  "description": "<p>Content for the Vionheart campaign setting.</p>",
-  "authors": [
-    {
-      "name": "Xyril P.",
-      "discord": "xyrilp.",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "vionheart-player-characters",
-      "label": "Vionheart Player Characters",
-      "path": "packs/vionheart-player-characters",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-non-player-characters",
-      "label": "Vionheart Non-Player Characters",
-      "path": "packs/vionheart-non-player-characters",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-monsters",
-      "label": "Vionheart Monsters",
-      "path": "packs/vionheart-monsters",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-items",
-      "label": "Vionheart Items",
-      "path": "packs/vionheart-items",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-spells",
-      "label": "Vionheart Spells",
-      "path": "packs/vionheart-spells",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-feats",
-      "label": "Vionheart Feats",
-      "path": "packs/vionheart-feats",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-ancestries",
-      "label": "Vionheart Ancestries",
-      "path": "packs/vionheart-ancestries",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-heritages",
-      "label": "Vionheart Heritages",
-      "path": "packs/vionheart-heritages",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-backgrounds",
-      "label": "Vionheart  Backgrounds",
-      "path": "packs/vionheart-backgrounds",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-effects",
-      "label": "Vionheart Effects",
-      "path": "packs/vionheart-effects",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-actions",
-      "label": "Vionheart Actions",
-      "path": "packs/vionheart-actions",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-journal-entries",
-      "label": "Vionheart Journal Entries",
-      "path": "packs/vionheart-journal-entries",
-      "type": "JournalEntry",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-macros",
-      "label": "Vionheart Macros",
-      "path": "packs/vionheart-macros",
-      "type": "Macro",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-features",
-      "label": "Vionheart Features",
-      "path": "packs/vionheart-features",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-iconics",
-      "label": "Vionheart Iconics",
-      "path": "packs/vionheart-iconics",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-scenes",
-      "label": "Vionheart Scenes",
-      "path": "packs/vionheart-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-ancestryheritage-templates",
-      "label": "Vionheart NPC Templates",
-      "path": "packs/vionheart-ancestryheritage-templates",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-deities",
-      "label": "Vionheart Deities",
-      "path": "packs/vionheart-deities",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-playlists",
-      "label": "Vionheart Playlists",
-      "path": "packs/vionheart-playlists",
-      "type": "Playlist",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "vionheart-classes",
-      "label": "Vionheart Classes",
-      "path": "packs/vionheart-classes",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "Vionheart Content",
-      "color": "#c864c8",
-      "sorting": "a",
-      "folders": [
-        {
-          "name": "Base",
-          "sorting": "a",
-          "color": "#c864c8",
-          "packs": [
-            "vionheart-player-characters",
-            "vionheart-non-player-characters",
-            "vionheart-monsters",
-            "vionheart-items",
-            "vionheart-spells",
-            "vionheart-feats",
-            "vionheart-ancestries",
-            "vionheart-heritages",
-            "vionheart-backgrounds",
-            "vionheart-effects",
-            "vionheart-actions",
-            "vionheart-journal-entries",
-            "vionheart-macros",
-            "vionheart-features",
-            "vionheart-iconics",
-            "vionheart-scenes",
-            "vionheart-ancestryheritage-templates",
-            "vionheart-deities",
-            "vionheart-playlists",
-            "vionheart-classes"
-          ],
-          "folders": []
-        }
-      ],
-      "packs": []
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      },
-      {
-        "id": "sf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ],
-    "recommends": [
-      {
-        "id": "game-icons-net",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
-  },
-  "flags": {
-    "vionheart-content": {
-      "pf2e-homebrew": {
-        "baseArmors": {},
-        "baseWeapons": {
-          "swordspear": "Swordspear",
-          "karakuri-blade": "Karakuri Blade",
-          "karakuri-blaster": "Karakuri Blaster",
-          "karakuri-cannon": "Karakuri Cannon",
-          "karakuri-saber": "Karakuri Saber",
-          "karakuri-bow": "Karakuri Bow",
-          "combat-fishing-rod": "Combat Fishing Rod"
-        },
-        "languages": {
-          "gartext": "Gartext",
-          "tricode": "Tricode",
-          "fiendish": "Fiendish",
-          "outworldic": "Outworldic",
-          "alofic": "Alofic",
-          "monsterspeech": "Monsterspeech",
-          "baruder": "Baruder",
-          "underune": "Underune",
-          "krixie": "Krixie",
-          "kodex": "Kodex",
-          "heartsharp": "Heartsharp",
-          "english": "English",
-          "spanish": "Spanish",
-          "chinese": "Chinese"
-        },
-        "weaponGroups": {},
-        "creatureTraits": {
-          "heartner": "Heartner",
-          "triceranyl": "Triceranyl",
-          "darkling": "Darkling",
-          "khaxi": "Khaxi",
-          "draconid": "Draconid",
-          "kira": "Kira",
-          "kemono": "Kemono",
-          "alofian": "Alofian",
-          "garsek": "Garsek",
-          "nonyana": "Nonyana",
-          "broodle": "Broodle",
-          "brae": "Brae",
-          "felicat": "Felicat",
-          "kameleon": "Kameleon",
-          "kitsukin": "Kitsukin",
-          "kureira": "Kureira",
-          "lucaline": "Lucaline",
-          "meranth": "Meranth",
-          "ulfasar": "Ulfasar",
-          "bovidae": "Bovidae",
-          "cannent": "Cannent",
-          "first-world-khaxi": "First World Khaxi",
-          "netherworld-khaxi": "Netherworld Khaxi",
-          "astral-khaxi": "Astral Khaxi",
-          "ethereal-khaxi": "Ethereal Khaxi",
-          "regal-alofian": "Regal Alofian",
-          "harakin": "Harakin",
-          "lunafel": "Lunafel",
-          "follower": "Follower",
-          "wukon": "Wukon",
-          "vinxi": "Vinxi",
-          "karakuri": "Karakuri",
-          "creep": "Creep",
-          "dosh": "Dosh",
-          "durana": "Durana",
-          "rigz": "Posslin",
-          "cryothinian": "Cryothinian",
-          "ukarian": "Ukarian",
-          "ilnishian": "Ilnishian",
-          "seihnish": "Seihnish",
-          "luminescence": "Luminescence"
-        },
-        "featTraits": {
-          "heartner": "Heartner",
-          "triceranyl": "Triceranyl",
-          "darkling": "Darkling",
-          "draconid": "Draconid",
-          "kira": "Kira",
-          "kemono": "Kemono",
-          "alofian": "Alofian",
-          "regal-alofian": "Regal Alofian",
-          "garsek": "Garsek",
-          "nonyana": "Nonyana",
-          "broodle": "Broodle",
-          "brae": "Brae",
-          "felicat": "Felicat",
-          "kameleon": "Kameleon",
-          "kitsukin": "Kitsukin",
-          "kureira": "Kureira",
-          "lucaline": "Lucaline",
-          "meranth": "Meranth",
-          "ulfasar": "Ulfasar",
-          "bovidae": "Bovidae",
-          "cannent": "Cannent",
-          "khaxi": "Khaxi",
-          "first-world-khaxi": "First World Khaxi",
-          "netherworld-khaxi": "Netherworld Khaxi",
-          "astral-khaxi": "Astral Khaxi",
-          "ethereal-khaxi": "Ethereal Khaxi",
-          "harakin": "Harakin",
-          "lunafel": "Lunafel",
-          "wukon": "Wukon",
-          "dosh": "Dosh",
-          "vinxi": "Vinxi",
-          "creep": "Creep",
-          "durana": "Durana",
-          "follower": "Follower",
-          "karakuri": "Karakuri",
-          "perk": "Perk",
-          "apprentice": "Apprentice",
-          "facet": {
-            "label": "Facet",
-            "description": "A facet changes aspects of this creature, granting both benefits and disbenefits."
-          },
-          "cryothinian": "Cryothinian",
-		  "defend": "Defend"
-        },
-        "spellTraits": {
-          "starpower": "Starpower",
-          "command-song": "Command Song",
-          "karakuri": "Karakuri",
-          "scarlet-wire": "Scarlet Wire",
-          "alofian": "Alofian",
-          "stratagem": "Stratagem",
-          "eye-technique": "Eye Technique",
-		  "defend": "Defend"
-        },
-        "weaponTraits": {
-          "heartner": "Heartner",
-          "alofian": "Alofian",
-          "garsek": "Garsek",
-          "nonyana": "Nonyana",
-          "broodle": "Broodle",
-          "brae": "Brae",
-          "felicat": "Felicat",
-          "kameleon": "Kameleon",
-          "kitsukin": "Kitsukin",
-          "kureira": "Kureira",
-          "lucaline": "Lucaline",
-          "meranth": "Meranth",
-          "ulfasar": "Ulfasar",
-          "bovidae": "Bovidae",
-          "cannent": "Cannent",
-          "harakin": "Harakin",
-          "lunafel": "Lunafel",
-          "wukon": "Wukon",
-          "dosh": "Dosh",
-          "triceranyl": "Triceranyl",
-          "darkling": "Darkling",
-          "kemono": "Kemono",
-          "draconid": "Draconid",
-          "kira": "Kira",
-          "khaxi": "Khaxi",
-          "vinxi": "Vinxi",
-          "karakuri": "Karakuri",
-          "key-item": {
-            "label": "Key Item",
-            "description": "This item has a significant purpose in the campaign."
-          },
-          "follower": "Follower",
-          "neoteric": {
-            "label": "Neoteric",
-            "description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
-          },
-          "cryothinian": "Cryothinian"
-        },
-        "equipmentTraits": {
-          "heartner": "Heartner",
-          "alofian": "Alofian",
-          "garsek": "Garsek",
-          "nonyana": "Nonyana",
-          "broodle": "Broodle",
-          "brae": "Brae",
-          "felicat": "Felicat",
-          "kameleon": "Kameleon",
-          "kitsukin": "Kitsukin",
-          "kureira": "Kureira",
-          "lucaline": "Lucaline",
-          "meranth": "Meranth",
-          "ulfasar": "Ulfasar",
-          "bovidae": "Bovidae",
-          "cannent": "Cannent",
-          "harakin": "Harakin",
-          "lunafel": "Lunafel",
-          "wukon": "Wukon",
-          "dosh": "Dosh",
-          "triceranyl": "Triceranyl",
-          "darkling": "Darkling",
-          "kemono": "Kemono",
-          "draconid": "Draconid",
-          "kira": "Kira",
-          "khaxi": "Khaxi",
-          "vinxi": "Vinxi",
-          "karakuri": "Karakuri",
-          "key-item": {
-            "label": "Key Item",
-            "description": "This item has a significant purpose in the Campaign."
-          },
-          "follower": "Follower",
-          "neoteric": {
-            "label": "Neoteric",
-            "description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
-          }
-        },
-		"damageTypes": {
-			"pure": {
-				"label": "Pure",
-				"category": "energy",
-				"icon": "fa-diamond"
+	"id": "vionheart-content",
+	"title": "Vionheart Content",
+	"manifest": "https://raw.githubusercontent.com/XyrilP/vionheart-content/main/module.json",
+	"download": "https://github.com/XyrilP/vionheart-content/archive/refs/heads/main.zip",
+	"version": "13",
+	"compatibility": {
+		"minimum": "14",
+		"verified": "14",
+		"maximum": "14"
+	},
+	"description": "<p>Content for the Vionheart campaign setting.</p>",
+	"authors": [
+		{
+			"name": "Xyril P.",
+			"discord": "xyrilp.",
+			"flags": {}
+		}
+	],
+	"packs": [
+		{
+			"name": "vionheart-player-characters",
+			"label": "Vionheart Player Characters",
+			"path": "packs/vionheart-player-characters",
+			"type": "Actor",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
 			},
-			"dragon": {
-				"label": "Dragon",
-				"category": "energy",
-				"icon": "fa-dragon"
+			"flags": {}
+		},
+		{
+			"name": "vionheart-non-player-characters",
+			"label": "Vionheart Non-Player Characters",
+			"path": "packs/vionheart-non-player-characters",
+			"type": "Actor",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
 			},
-			"vurs-magic": {
-				"label": "Magic",
-				"category": "energy",
-				"icon": "fa-star"
+			"flags": {}
+		},
+		{
+			"name": "vionheart-monsters",
+			"label": "Vionheart Monsters",
+			"path": "packs/vionheart-monsters",
+			"type": "Actor",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-items",
+			"label": "Vionheart Items",
+			"path": "packs/vionheart-items",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-spells",
+			"label": "Vionheart Spells",
+			"path": "packs/vionheart-spells",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-feats",
+			"label": "Vionheart Feats",
+			"path": "packs/vionheart-feats",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-ancestries",
+			"label": "Vionheart Ancestries",
+			"path": "packs/vionheart-ancestries",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-heritages",
+			"label": "Vionheart Heritages",
+			"path": "packs/vionheart-heritages",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-backgrounds",
+			"label": "Vionheart  Backgrounds",
+			"path": "packs/vionheart-backgrounds",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-effects",
+			"label": "Vionheart Effects",
+			"path": "packs/vionheart-effects",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-actions",
+			"label": "Vionheart Actions",
+			"path": "packs/vionheart-actions",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-journal-entries",
+			"label": "Vionheart Journal Entries",
+			"path": "packs/vionheart-journal-entries",
+			"type": "JournalEntry",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-macros",
+			"label": "Vionheart Macros",
+			"path": "packs/vionheart-macros",
+			"type": "Macro",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-features",
+			"label": "Vionheart Features",
+			"path": "packs/vionheart-features",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-iconics",
+			"label": "Vionheart Iconics",
+			"path": "packs/vionheart-iconics",
+			"type": "Actor",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-scenes",
+			"label": "Vionheart Scenes",
+			"path": "packs/vionheart-scenes",
+			"type": "Scene",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-ancestryheritage-templates",
+			"label": "Vionheart NPC Templates",
+			"path": "packs/vionheart-ancestryheritage-templates",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-deities",
+			"label": "Vionheart Deities",
+			"path": "packs/vionheart-deities",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-playlists",
+			"label": "Vionheart Playlists",
+			"path": "packs/vionheart-playlists",
+			"type": "Playlist",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		},
+		{
+			"name": "vionheart-classes",
+			"label": "Vionheart Classes",
+			"path": "packs/vionheart-classes",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"flags": {}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "Vionheart Content",
+			"color": "#c864c8",
+			"sorting": "a",
+			"folders": [
+				{
+					"name": "Base",
+					"sorting": "a",
+					"color": "#c864c8",
+					"packs": [
+						"vionheart-player-characters",
+						"vionheart-non-player-characters",
+						"vionheart-monsters",
+						"vionheart-items",
+						"vionheart-spells",
+						"vionheart-feats",
+						"vionheart-ancestries",
+						"vionheart-heritages",
+						"vionheart-backgrounds",
+						"vionheart-effects",
+						"vionheart-actions",
+						"vionheart-journal-entries",
+						"vionheart-macros",
+						"vionheart-features",
+						"vionheart-iconics",
+						"vionheart-scenes",
+						"vionheart-ancestryheritage-templates",
+						"vionheart-deities",
+						"vionheart-playlists",
+						"vionheart-classes"
+					],
+					"folders": []
+				}
+			],
+			"packs": []
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"compatibility": {}
+			},
+			{
+				"id": "sf2e",
+				"type": "system",
+				"compatibility": {}
+			}
+		],
+		"recommends": [
+			{
+				"id": "game-icons-net",
+				"type": "module",
+				"compatibility": {}
+			}
+		]
+	},
+	"flags": {
+		"vionheart-content": {
+			"pf2e-homebrew": {
+				"baseArmors": {},
+				"baseWeapons": {
+					"swordspear": "Swordspear",
+					"karakuri-blade": "Karakuri Blade",
+					"karakuri-blaster": "Karakuri Blaster",
+					"karakuri-cannon": "Karakuri Cannon",
+					"karakuri-saber": "Karakuri Saber",
+					"karakuri-bow": "Karakuri Bow",
+					"combat-fishing-rod": "Combat Fishing Rod"
+				},
+				"languages": {
+					"gartext": "Gartext",
+					"tricode": "Tricode",
+					"fiendish": "Fiendish",
+					"outworldic": "Outworldic",
+					"alofic": "Alofic",
+					"monsterspeech": "Monsterspeech",
+					"baruder": "Baruder",
+					"underune": "Underune",
+					"krixie": "Krixie",
+					"kodex": "Kodex",
+					"heartsharp": "Heartsharp",
+					"english": "English",
+					"spanish": "Spanish",
+					"chinese": "Chinese"
+				},
+				"weaponGroups": {},
+				"creatureTraits": {
+					"heartner": "Heartner",
+					"triceranyl": "Triceranyl",
+					"darkling": "Darkling",
+					"khaxi": "Khaxi",
+					"draconid": "Draconid",
+					"kira": "Kira",
+					"kemono": "Kemono",
+					"alofian": "Alofian",
+					"garsek": "Garsek",
+					"nonyana": "Nonyana",
+					"broodle": "Broodle",
+					"brae": "Brae",
+					"felicat": "Felicat",
+					"kameleon": "Kameleon",
+					"kitsukin": "Kitsukin",
+					"kureira": "Kureira",
+					"lucaline": "Lucaline",
+					"meranth": "Meranth",
+					"ulfasar": "Ulfasar",
+					"bovidae": "Bovidae",
+					"cannent": "Cannent",
+					"first-world-khaxi": "First World Khaxi",
+					"netherworld-khaxi": "Netherworld Khaxi",
+					"astral-khaxi": "Astral Khaxi",
+					"ethereal-khaxi": "Ethereal Khaxi",
+					"regal-alofian": "Regal Alofian",
+					"harakin": "Harakin",
+					"lunafel": "Lunafel",
+					"follower": "Follower",
+					"wukon": "Wukon",
+					"vinxi": "Vinxi",
+					"karakuri": "Karakuri",
+					"creep": "Creep",
+					"dosh": "Dosh",
+					"durana": "Durana",
+					"rigz": "Posslin",
+					"cryothinian": "Cryothinian",
+					"ukarian": "Ukarian",
+					"ilnishian": "Ilnishian",
+					"seihnish": "Seihnish",
+					"luminescence": "Luminescence"
+				},
+				"featTraits": {
+					"heartner": "Heartner",
+					"triceranyl": "Triceranyl",
+					"darkling": "Darkling",
+					"draconid": "Draconid",
+					"kira": "Kira",
+					"kemono": "Kemono",
+					"alofian": "Alofian",
+					"regal-alofian": "Regal Alofian",
+					"garsek": "Garsek",
+					"nonyana": "Nonyana",
+					"broodle": "Broodle",
+					"brae": "Brae",
+					"felicat": "Felicat",
+					"kameleon": "Kameleon",
+					"kitsukin": "Kitsukin",
+					"kureira": "Kureira",
+					"lucaline": "Lucaline",
+					"meranth": "Meranth",
+					"ulfasar": "Ulfasar",
+					"bovidae": "Bovidae",
+					"cannent": "Cannent",
+					"khaxi": "Khaxi",
+					"first-world-khaxi": "First World Khaxi",
+					"netherworld-khaxi": "Netherworld Khaxi",
+					"astral-khaxi": "Astral Khaxi",
+					"ethereal-khaxi": "Ethereal Khaxi",
+					"harakin": "Harakin",
+					"lunafel": "Lunafel",
+					"wukon": "Wukon",
+					"dosh": "Dosh",
+					"vinxi": "Vinxi",
+					"creep": "Creep",
+					"durana": "Durana",
+					"follower": "Follower",
+					"karakuri": "Karakuri",
+					"perk": "Perk",
+					"apprentice": "Apprentice",
+					"facet": {
+						"label": "Facet",
+						"description": "A facet changes aspects of this creature, granting both benefits and disbenefits."
+					},
+					"cryothinian": "Cryothinian",
+					"defend": "Defend"
+				},
+				"spellTraits": {
+					"starpower": "Starpower",
+					"command-song": "Command Song",
+					"karakuri": "Karakuri",
+					"scarlet-wire": "Scarlet Wire",
+					"alofian": "Alofian",
+					"stratagem": "Stratagem",
+					"eye-technique": "Eye Technique",
+					"defend": "Defend"
+				},
+				"weaponTraits": {
+					"heartner": "Heartner",
+					"alofian": "Alofian",
+					"garsek": "Garsek",
+					"nonyana": "Nonyana",
+					"broodle": "Broodle",
+					"brae": "Brae",
+					"felicat": "Felicat",
+					"kameleon": "Kameleon",
+					"kitsukin": "Kitsukin",
+					"kureira": "Kureira",
+					"lucaline": "Lucaline",
+					"meranth": "Meranth",
+					"ulfasar": "Ulfasar",
+					"bovidae": "Bovidae",
+					"cannent": "Cannent",
+					"harakin": "Harakin",
+					"lunafel": "Lunafel",
+					"wukon": "Wukon",
+					"dosh": "Dosh",
+					"triceranyl": "Triceranyl",
+					"darkling": "Darkling",
+					"kemono": "Kemono",
+					"draconid": "Draconid",
+					"kira": "Kira",
+					"khaxi": "Khaxi",
+					"vinxi": "Vinxi",
+					"karakuri": "Karakuri",
+					"key-item": {
+						"label": "Key Item",
+						"description": "This item has a significant purpose in the campaign."
+					},
+					"follower": "Follower",
+					"neoteric": {
+						"label": "Neoteric",
+						"description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
+					},
+					"cryothinian": "Cryothinian"
+				},
+				"equipmentTraits": {
+					"heartner": "Heartner",
+					"alofian": "Alofian",
+					"garsek": "Garsek",
+					"nonyana": "Nonyana",
+					"broodle": "Broodle",
+					"brae": "Brae",
+					"felicat": "Felicat",
+					"kameleon": "Kameleon",
+					"kitsukin": "Kitsukin",
+					"kureira": "Kureira",
+					"lucaline": "Lucaline",
+					"meranth": "Meranth",
+					"ulfasar": "Ulfasar",
+					"bovidae": "Bovidae",
+					"cannent": "Cannent",
+					"harakin": "Harakin",
+					"lunafel": "Lunafel",
+					"wukon": "Wukon",
+					"dosh": "Dosh",
+					"triceranyl": "Triceranyl",
+					"darkling": "Darkling",
+					"kemono": "Kemono",
+					"draconid": "Draconid",
+					"kira": "Kira",
+					"khaxi": "Khaxi",
+					"vinxi": "Vinxi",
+					"karakuri": "Karakuri",
+					"key-item": {
+						"label": "Key Item",
+						"description": "This item has a significant purpose in the Campaign."
+					},
+					"follower": "Follower",
+					"neoteric": {
+						"label": "Neoteric",
+						"description": "These items are either from a bygone or inaccessible era, and extensive effort have been made to identify, understand, reverse-engineer and commercialize neoterica."
+					}
+				},
+				"damageTypes": {
+					"pure": {
+						"label": "Pure",
+						"category": "energy",
+						"icon": "fa-diamond"
+					},
+					"dragon": {
+						"label": "Dragon",
+						"category": "energy",
+						"icon": "fa-dragon"
+					},
+					"vurs-magic": {
+						"label": "Magic",
+						"category": "energy",
+						"icon": "fa-star"
+					}
+				}
 			}
 		}
-      }
-    }
-  }
+	},
+	"esmodules": [
+		"scripts/logoSwap.js"
+	]
 }
